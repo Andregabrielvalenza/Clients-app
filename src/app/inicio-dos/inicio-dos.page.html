@@ -1,0 +1,103 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button class="btn-nav-left">
+      <ion-icon name="chevron-back-outline"></ion-icon>
+    </ion-button>
+    <ion-title class="ion-text-center">inicio-uno</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-segment mode="ios">
+    <ion-segment-button value="resumen">
+      <ion-label>Resumen</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="portafolio">
+      <ion-label>Portafolio</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="dependientes">
+      <ion-label>Dependientes</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="pagos">
+      <ion-label>Pagos</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  <h6 class="h6-top">Método de pago</h6>
+  <ion-list mode="ios">
+    <ion-item mode="ios" class="item-list ion-no-padding item-boder-bottom" lines="none">
+      <ion-row class="row-widht">
+        <ion-col size="6" class="col-padding-left">
+          <h6 class="h6-list-titulo">TOTAL APORTADO</h6>
+          <p class="p-blanco-descripcion"><sup>USD</sup> 350</p>
+        </ion-col>
+        <ion-col size="6" class="col-padding-right ion-text-end">
+          <h6 class="h6-list-titulo">VALOR PORTFOLIO</h6>
+          <p class="p-blanco-descripcion"><sup>USD</sup> 350</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+    <ion-item mode="ios" class="item-list ion-no-padding item-boder-bottom" lines="none">
+      <ion-row class="row-widht">
+        <ion-col size="6" class="col-padding-left">
+          <h6 class="h6-list-titulo">TOTAL RESCATES</h6>
+          <p class="p-blanco-descripcion"><sup>USD</sup> 350</p>
+        </ion-col>
+        <ion-col size="6" class="col-padding-right ion-text-end">
+          <h6 class="h6-list-titulo">Asesor</h6>
+          <p class="p-blanco-descripcion">Carlos Romaña Ormachea</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+    <ion-item mode="ios" class="item-list ion-no-padding item-boder-bottom" lines="none">
+      <ion-row class="row-widht">
+        <ion-col size="6" class="col-padding-left">
+          <h6 class="h6-list-titulo">FECHA EFECTIVIDAD</h6>
+          <p class="p-blanco-descripcion">23/09/2023</p>
+        </ion-col>
+        <ion-col size="6" class="col-padding-right ion-text-end">
+          <h6 class="h6-list-titulo">APORTADO ÚNICO</h6>
+          <p class="p-blanco-descripcion"><sup>USD</sup> 350</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+    <ion-item mode="ios" class="item-list ion-no-padding" lines="none">
+      <ion-row class="row-widht">
+        <ion-col size="6" class="col-padding-left">
+          <h6 class="h6-list-titulo">APORTADO REGULAR</h6>
+          <p class="p-blanco-descripcion"><sup>USD</sup> 5.950</p>
+        </ion-col>
+        <ion-col size="6" class="col-padding-right ion-text-end">
+          <h6 class="h6-list-titulo">APORTES PENDIENTES</h6>
+          <p class="p-blanco-descripcion">1</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+  </ion-list>
+  <h6 class="h6-blanco">Distribución de activos</h6>
+  <div class="div-btn">
+    <ion-button class="btn-cuadrados btn-left btn-activo-verde">3M</ion-button>
+    <ion-button class="btn-cuadrados btn-left btn-activo-verde">6M</ion-button>
+    <ion-button class="btn-cuadrados btn-left btn-activo-verde">1A</ion-button>
+    <ion-button class="btn-cuadrados btn-activo-verde">3A</ion-button>
+  </div>
+  <div class="div-estadistica-uno"></div>
+  <ion-button class="btn-cuenta">Ver estado de ceunta</ion-button>
+</ion-content>
+<ion-footer mode="ios">
+  <div class="div-footer">
+    <ion-icon name="analytics-sharp" class="icon-footer icon-azul-footer"></ion-icon>
+    <p class="p-footer p-azul-footer">Cuentas</p> 
+  </div>
+  <div class="div-footer">
+    <ion-icon name="notifications-outline" class="icon-footer"></ion-icon>
+    <p class="p-footer">Noticias</p>
+  </div>
+  <div class="div-footer">
+    <ion-icon name="person-outline" class="icon-footer"></ion-icon>
+    <p class="p-footer">Perfil</p>
+  </div>
+  <div class="div-footer">
+    <ion-icon name="mail-outline" class="icon-footer"></ion-icon>
+    <p class="p-footer">Contacto</p>
+  </div>
+</ion-footer>
